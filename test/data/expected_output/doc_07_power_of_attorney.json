@@ -1,0 +1,68 @@
+{
+  "customers": [
+    {
+      "name": "Walter Emmitt Sorensen",
+      "email": null,
+      "phone": null,
+      "dateOfBirth": "1948-04-27",
+      "mailingAddress": {
+        "street": "219 Brookhaven Drive",
+        "city": "Madison",
+        "state": "Wisconsin",
+        "postalCode": "53711",
+        "country": "United States",
+        "line2": null
+      }
+    },
+    {
+      "name": "Lucille Faith Okonkwo",
+      "email": null,
+      "phone": null,
+      "dateOfBirth": null,
+      "mailingAddress": {
+        "street": "4045 Sable Ridge Way",
+        "city": "Milwaukee",
+        "state": "Wisconsin",
+        "postalCode": "53202",
+        "country": "United States",
+        "line2": null
+      }
+    }
+  ],
+  "dollarAmounts": [
+    {
+      "amount": 455000,
+      "currency": "USD",
+      "category": "minimum accepted offer"
+    },
+    {
+      "amount": 5000,
+      "currency": "USD",
+      "category": "repairs or closing costs"
+    }
+  ],
+  "addresses": [
+    {
+      "street": "219 Brookhaven Drive",
+      "city": "Madison",
+      "state": "Wisconsin",
+      "postalCode": "53711",
+      "country": "United States",
+      "line2": null,
+      "type": "single family home",
+      "ownerName": "Walter Emmitt Sorensen",
+      "renterName": null
+    },
+    {
+      "street": "4045 Sable Ridge Way",
+      "city": "Milwaukee",
+      "state": "Wisconsin",
+      "postalCode": "53202",
+      "country": "United States",
+      "line2": null,
+      "type": "single family home",
+      "ownerName": "Lucille Faith Okonkwo",
+      "renterName": null
+    }
+  ]
+}

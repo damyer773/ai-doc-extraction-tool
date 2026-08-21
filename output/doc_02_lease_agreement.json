@@ -1,0 +1,86 @@
+{
+  "customers": [
+    {
+      "name": "Gregory Paul Ostrander",
+      "email": null,
+      "phone": null,
+      "dateOfBirth": null,
+      "mailingAddress": {
+        "street": "15 Harbor View Circle",
+        "city": "Wilmington",
+        "state": "North Carolina",
+        "postalCode": "28401",
+        "country": "United States",
+        "line2": "Suite 220"
+      }
+    },
+    {
+      "name": "Alicia Ferreira Costa",
+      "email": null,
+      "phone": null,
+      "dateOfBirth": null,
+      "mailingAddress": {
+        "street": "928 Chestnut Bend Lane",
+        "city": "Charlotte",
+        "state": "North Carolina",
+        "postalCode": "28204",
+        "country": "United States",
+        "line2": "Unit 3B"
+      }
+    },
+    {
+      "name": "Brian Timothy Costa",
+      "email": null,
+      "phone": null,
+      "dateOfBirth": null,
+      "mailingAddress": {
+        "street": "928 Chestnut Bend Lane",
+        "city": "Charlotte",
+        "state": "North Carolina",
+        "postalCode": "28204",
+        "country": "United States",
+        "line2": "Unit 3B"
+      }
+    }
+  ],
+  "dollarAmounts": [
+    {
+      "amount": 1975,
+      "currency": "USD",
+      "category": "rental amount"
+    },
+    {
+      "amount": 75,
+      "currency": "USD",
+      "category": "late fee"
+    },
+    {
+      "amount": 2962.5,
+      "currency": "USD",
+      "category": "security deposit"
+    },
+    {
+      "amount": 100000,
+      "currency": "USD",
+      "category": "liability coverage"
+    },
+    {
+      "amount": 2100,
+      "currency": "USD",
+      "category": "rental amount (month-to-month)"
+    }
+  ],
+  "addresses": [
+    {
+      "street": "928 Chestnut Bend Lane",
+      "city": "Charlotte",
+      "state": "North Carolina",
+      "postalCode": "28204",
+      "country": "United States",
+      "line2": "Unit 3B",
+      "type": "apartment",
+      "ownerName": "Gregory Paul Ostrander",
+      "renterName": "Alicia Ferreira Costa and Brian Timothy Costa"
+    }
+  ]
+}

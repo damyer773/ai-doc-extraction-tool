@@ -1,0 +1,62 @@
+{
+  "customers": [
+    {
+      "name": "Marcus Alan Whitfield",
+      "email": null,
+      "phone": null,
+      "dateOfBirth": "1979-03-14",
+      "mailingAddress": {
+        "street": "4417 Larkspur Hollow Road",
+        "city": "Boise",
+        "state": "Idaho",
+        "postalCode": "83702",
+        "country": "US",
+        "line2": null
+      }
+    },
+    {
+      "name": "Deborah Sue Nakamura",
+      "email": null,
+      "phone": null,
+      "dateOfBirth": null,
+      "mailingAddress": {
+        "street": "4417 Larkspur Hollow Road",
+        "city": "Boise",
+        "state": "Idaho",
+        "postalCode": "83702",
+        "country": "US",
+        "line2": null
+      }
+    }
+  ],
+  "dollarAmounts": [
+    {
+      "amount": 412750,
+      "currency": "USD",
+      "category": "purchase price"
+    },
+    {
+      "amount": 8500,
+      "currency": "USD",
+      "category": "earnest money"
+    },
+    {
+      "amount": 6200,
+      "currency": "USD",
+      "category": "closing costs"
+    }
+  ],
+  "addresses": [
+    {
+      "street": "4417 Larkspur Hollow Road",
+      "city": "Boise",
+      "state": "Idaho",
+      "postalCode": "83702",
+      "country": "US",
+      "line2": null,
+      "type": "single family home",
+      "ownerName": "Deborah Sue Nakamura",
+      "renterName": "Marcus Alan Whitfield"
+    }
+  ]
+}

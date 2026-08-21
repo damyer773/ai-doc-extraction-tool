@@ -1,0 +1,233 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.com/schemas/document-extraction.schema.json",
+  "title": "AI Document Extraction Result",
+  "description": "Structured entities extracted from a document.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "customers",
+    "dollarAmounts",
+    "addresses"
+  ],
+  "properties": {
+    "customers": {
+      "type": "array",
+      "description": "Customers identified in the document.",
+      "items": {
+        "$ref": "#/$defs/customer"
+      }
+    },
+    "dollarAmounts": {
+      "type": "array",
+      "description": "Monetary amounts identified in the document.",
+      "items": {
+        "$ref": "#/$defs/dollarAmount"
+      }
+    },
+    "addresses": {
+      "type": "array",
+      "description": "Postal addresses identified in the document.",
+      "items": {
+        "$ref": "#/$defs/address"
+      }
+    }
+  },
+  "$defs": {
+    "customer": {
+      "title": "Extracted Customer",
+      "description": "A customer or party identified in the document.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "name",
+        "email",
+        "phone",
+        "dateOfBirth",
+        "mailingAddress"
+      ],
+      "properties": {
+        "name": {
+          "type": "string",
+          "description": "The customer's full name or legal business name.",
+          "minLength": 1
+        },
+        "email": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "The customer's email address.",
+          "format": "email"
+        },
+        "phone": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "The customer's telephone number.",
+          "minLength": 1
+        },
+        "dateOfBirth": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "The customer's date of birth in ISO 8601 date format (YYYY-MM-DD).",
+          "format": "date"
+        },
+        "mailingAddress": {
+          "$ref": "#/$defs/mailingAddress"
+        }
+      }
+    },
+    "dollarAmount": {
+      "title": "Extracted Dollar Amount",
+      "description": "A monetary amount and its currency as represented in the document.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "amount",
+        "currency",
+        "category"
+      ],
+      "properties": {
+        "amount": {
+          "type": "number",
+          "description": "The numeric monetary value.",
+          "minimum": 0
+        },
+        "currency": {
+          "type": "string",
+          "description": "The three-letter ISO 4217 currency code.",
+          "pattern": "^[A-Z]{3}$"
+        },
+        "category": {
+          "type": "string",
+          "description": "The category of the amount, such as rental amount, principal, or security deposit.",
+          "minLength": 1
+        }
+      }
+    },
+    "mailingAddress": {
+      "title": "Extracted Mailing Address",
+      "description": "A customer's mailing address identified in the document.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode",
+        "country",
+        "line2"
+      ],
+      "properties": {
+        "street": {
+          "type": "string",
+          "description": "Street number and street name.",
+          "minLength": 1
+        },
+        "city": {
+          "type": "string",
+          "description": "City, town, or locality.",
+          "minLength": 1
+        },
+        "state": {
+          "type": "string",
+          "description": "State, province, or administrative region.",
+          "minLength": 1
+        },
+        "postalCode": {
+          "type": "string",
+          "description": "Postal or ZIP code.",
+          "minLength": 1
+        },
+        "country": {
+          "type": "string",
+          "description": "Country name or two-letter ISO 3166-1 alpha-2 code.",
+          "minLength": 2
+        },
+        "line2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Optional apartment, suite, unit, or secondary address line.",
+          "minLength": 1
+        }
+      }
+    },
+    "address": {
+      "title": "Extracted Address",
+      "description": "A complete postal address identified in the document.",
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "street",
+        "city",
+        "state",
+        "postalCode",
+        "country",
+        "line2",
+        "type",
+        "ownerName",
+        "renterName"
+      ],
+      "properties": {
+        "street": {
+          "type": "string",
+          "description": "Street number and street name.",
+          "minLength": 1
+        },
+        "city": {
+          "type": "string",
+          "description": "City, town, or locality.",
+          "minLength": 1
+        },
+        "state": {
+          "type": "string",
+          "description": "State, province, or administrative region.",
+          "minLength": 1
+        },
+        "postalCode": {
+          "type": "string",
+          "description": "Postal or ZIP code.",
+          "minLength": 1
+        },
+        "country": {
+          "type": "string",
+          "description": "Country name or two-letter ISO 3166-1 alpha-2 code.",
+          "minLength": 2
+        },
+        "line2": {
+          "type": [
+            "string",
+            "null"
+          ],
+          "description": "Optional apartment, suite, unit, or secondary address line.",
+          "minLength": 1
+        },
+        "type": {
+          "type": "string",
+          "description": "The address type.",
+          "enum": [
+            "apartment",
+            "single family home",
+            "condominium"
+          ]
+        },
+        "ownerName": {
+          "type": "string",
+          "description": "The name of the person or entity that owns the property.",
+          "minLength": 1
+        },
+        "renterName": {
+          "type": "string",
+          "description": "The name of the person or entity that rents the property.",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

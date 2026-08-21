@@ -1,0 +1,89 @@
+{
+  "customers": [
+    {
+      "name": "Bartholomew Reece Kingsley",
+      "email": null,
+      "phone": null,
+      "dateOfBirth": null,
+      "mailingAddress": {
+        "street": "350 Persimmon Grove Road",
+        "city": "Tulsa",
+        "state": "Oklahoma",
+        "postalCode": "74114",
+        "country": "United States",
+        "line2": null
+      }
+    },
+    {
+      "name": "Naomi Adaeze Chukwu",
+      "email": null,
+      "phone": null,
+      "dateOfBirth": null,
+      "mailingAddress": {
+        "street": "118 Sycamore Terrace",
+        "city": "Tulsa",
+        "state": "Oklahoma",
+        "postalCode": "74103",
+        "country": "United States",
+        "line2": "Apartment 6"
+      }
+    }
+  ],
+  "dollarAmounts": [
+    {
+      "amount": 1650,
+      "currency": "USD",
+      "category": "rental amount"
+    },
+    {
+      "amount": 350,
+      "currency": "USD",
+      "category": "rent credit"
+    },
+    {
+      "amount": 267000,
+      "currency": "USD",
+      "category": "purchase price"
+    },
+    {
+      "amount": 4500,
+      "currency": "USD",
+      "category": "option fee"
+    }
+  ],
+  "addresses": [
+    {
+      "street": "350 Persimmon Grove Road",
+      "city": "Tulsa",
+      "state": "Oklahoma",
+      "postalCode": "74114",
+      "country": "United States",
+      "line2": null,
+      "type": "single family home",
+      "ownerName": "Bartholomew Reece Kingsley",
+      "renterName": "Naomi Adaeze Chukwu"
+    },
+    {
+      "street": "118 Sycamore Terrace",
+      "city": "Tulsa",
+      "state": "Oklahoma",
+      "postalCode": "74103",
+      "country": "United States",
+      "line2": "Apartment 6",
+      "type": "apartment",
+      "ownerName": "null",
+      "renterName": "null"
+    },
+    {
+      "street": "902 Bellflower Path",
+      "city": "Broken Arrow",
+      "state": "Oklahoma",
+      "postalCode": "74012",
+      "country": "United States",
+      "line2": "c/o her sister",
+      "type": "single family home",
+      "ownerName": "null",
+      "renterName": "null"
+    }
+  ]
+}

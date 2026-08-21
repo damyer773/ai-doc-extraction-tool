@@ -1,0 +1,149 @@
+{
+  "customers": [
+    {
+      "name": "Michael Andrew Petrosyan",
+      "email": null,
+      "phone": null,
+      "dateOfBirth": "1969-07-11",
+      "mailingAddress": {
+        "street": "44 Aldergate Row",
+        "city": "Sacramento",
+        "state": "California",
+        "postalCode": "95815",
+        "country": "US",
+        "line2": null
+      }
+    },
+    {
+      "name": "Sandra Kim Petrosyan-Wu",
+      "email": null,
+      "phone": null,
+      "dateOfBirth": null,
+      "mailingAddress": {
+        "street": "902 Fairhope Lane",
+        "city": "Roseville",
+        "state": "California",
+        "postalCode": "95661",
+        "country": "US",
+        "line2": null
+      }
+    },
+    {
+      "name": "Vincent Diego Petrosyan",
+      "email": null,
+      "phone": null,
+      "dateOfBirth": "1974-12-03",
+      "mailingAddress": {
+        "street": "267 Cormorant Bay Drive",
+        "city": "Elk Grove",
+        "state": "California",
+        "postalCode": "95758",
+        "country": "US",
+        "line2": null
+      }
+    },
+    {
+      "name": "Teresa Louise Petrosyan-Ahn",
+      "email": null,
+      "phone": null,
+      "dateOfBirth": null,
+      "mailingAddress": {
+        "street": "55 Grantchester Court",
+        "city": "Folsom",
+        "state": "California",
+        "postalCode": "95630",
+        "country": "US",
+        "line2": null
+      }
+    }
+  ],
+  "dollarAmounts": [
+    {
+      "amount": 598000,
+      "currency": "USD",
+      "category": "appraisal"
+    },
+    {
+      "amount": 138500,
+      "currency": "USD",
+      "category": "distribution"
+    },
+    {
+      "amount": 138500,
+      "currency": "USD",
+      "category": "distribution"
+    },
+    {
+      "amount": 138500,
+      "currency": "USD",
+      "category": "distribution"
+    },
+    {
+      "amount": 138500,
+      "currency": "USD",
+      "category": "distribution"
+    },
+    {
+      "amount": 4000,
+      "currency": "USD",
+      "category": "administration fees"
+    }
+  ],
+  "addresses": [
+    {
+      "street": "812 Willowmere Street",
+      "city": "Sacramento",
+      "state": "California",
+      "postalCode": "95816",
+      "country": "US",
+      "line2": null,
+      "type": "single family home",
+      "ownerName": "Decedent",
+      "renterName": "Decedent"
+    },
+    {
+      "street": "44 Aldergate Row",
+      "city": "Sacramento",
+      "state": "California",
+      "postalCode": "95815",
+      "country": "US",
+      "line2": null,
+      "type": "single family home",
+      "ownerName": "Michael Andrew Petrosyan",
+      "renterName": "Michael Andrew Petrosyan"
+    },
+    {
+      "street": "902 Fairhope Lane",
+      "city": "Roseville",
+      "state": "California",
+      "postalCode": "95661",
+      "country": "US",
+      "line2": null,
+      "type": "single family home",
+      "ownerName": "Sandra Kim Petrosyan-Wu",
+      "renterName": "Sandra Kim Petrosyan-Wu"
+    },
+    {
+      "street": "267 Cormorant Bay Drive",
+      "city": "Elk Grove",
+      "state": "California",
+      "postalCode": "95758",
+      "country": "US",
+      "line2": null,
+      "type": "single family home",
+      "ownerName": "Vincent Diego Petrosyan",
+      "renterName": "Vincent Diego Petrosyan"
+    },
+    {
+      "street": "55 Grantchester Court",
+      "city": "Folsom",
+      "state": "California",
+      "postalCode": "95630",
+      "country": "US",
+      "line2": null,
+      "type": "single family home",
+      "ownerName": "Teresa Louise Petrosyan-Ahn",
+      "renterName": "Teresa Louise Petrosyan-Ahn"
+    }
+  ]
+}

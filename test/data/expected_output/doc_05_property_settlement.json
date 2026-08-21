@@ -1,0 +1,94 @@
+{
+  "customers": [
+    {
+      "name": "Richard Alan Dunmore",
+      "email": null,
+      "phone": null,
+      "dateOfBirth": null,
+      "mailingAddress": {
+        "street": "88 Fenwick Avenue",
+        "city": "Nashville",
+        "state": "Tennessee",
+        "postalCode": "37206",
+        "country": "United States",
+        "line2": "Units A and B"
+      }
+    },
+    {
+      "name": "Katherine Elise Dunmore",
+      "email": null,
+      "phone": null,
+      "dateOfBirth": null,
+      "mailingAddress": {
+        "street": "340 Ashgrove Lane",
+        "city": "Nashville",
+        "state": "Tennessee",
+        "postalCode": "37205",
+        "country": "United States",
+        "line2": null
+      }
+    }
+  ],
+  "dollarAmounts": [
+    {
+      "amount": 687000,
+      "currency": "USD",
+      "category": "fair market value"
+    },
+    {
+      "amount": 215000,
+      "currency": "USD",
+      "category": "equalization payment"
+    },
+    {
+      "amount": 296500,
+      "currency": "USD",
+      "category": "property value"
+    },
+    {
+      "amount": 2400,
+      "currency": "USD",
+      "category": "rental income"
+    },
+    {
+      "amount": 141300,
+      "currency": "USD",
+      "category": "mortgage balance"
+    }
+  ],
+  "addresses": [
+    {
+      "street": "340 Ashgrove Lane",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "postalCode": "37205",
+      "country": "United States",
+      "line2": null,
+      "type": "single family home",
+      "ownerName": "Katherine Elise Dunmore",
+      "renterName": null
+    },
+    {
+      "street": "1122 Timber Ridge Trail",
+      "city": "Gatlinburg",
+      "state": "Tennessee",
+      "postalCode": "37738",
+      "country": "United States",
+      "line2": null,
+      "type": "single family home",
+      "ownerName": "Richard Alan Dunmore, Katherine Elise Dunmore",
+      "renterName": null
+    },
+    {
+      "street": "88 Fenwick Avenue",
+      "city": "Nashville",
+      "state": "Tennessee",
+      "postalCode": "37206",
+      "country": "United States",
+      "line2": "Units A and B",
+      "type": "apartment",
+      "ownerName": "Richard Alan Dunmore",
+      "renterName": null
+    }
+  ]
+}

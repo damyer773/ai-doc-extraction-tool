@@ -1,0 +1,101 @@
+{
+  "customers": [
+    {
+      "name": "Eleanor Jean Whitcombe",
+      "email": null,
+      "phone": null,
+      "dateOfBirth": "1955-09-02",
+      "mailingAddress": {
+        "street": "501 Rincon Vista Boulevard",
+        "city": "Tucson",
+        "state": "Arizona",
+        "postalCode": "85718",
+        "country": "US",
+        "line2": null
+      }
+    },
+    {
+      "name": "Thomas Reyes Villanueva",
+      "email": null,
+      "phone": null,
+      "dateOfBirth": null,
+      "mailingAddress": {
+        "street": "74 Prairie Dunes Court",
+        "city": "Mesa",
+        "state": "Arizona",
+        "postalCode": "85201",
+        "country": "US",
+        "line2": null
+      }
+    }
+  ],
+  "dollarAmounts": [
+    {
+      "amount": 10,
+      "currency": "USD",
+      "category": "consideration"
+    },
+    {
+      "amount": 0,
+      "currency": "USD",
+      "category": "transfer tax amount"
+    }
+  ],
+  "addresses": [
+    {
+      "street": "2210 Meadowlark Terrace",
+      "city": "Tucson",
+      "state": "Arizona",
+      "postalCode": "85716",
+      "country": "US",
+      "line2": null,
+      "type": "single family home",
+      "ownerName": "Thomas Reyes Villanueva",
+      "renterName": null
+    },
+    {
+      "street": "88 Copperfield Way",
+      "city": "Flagstaff",
+      "state": "Arizona",
+      "postalCode": "86001",
+      "country": "US",
+      "line2": "Apartment 4",
+      "type": "apartment",
+      "ownerName": "Eleanor Jean Whitcombe",
+      "renterName": null
+    },
+    {
+      "street": "3390 Desert Willow Drive",
+      "city": "Sedona",
+      "state": "Arizona",
+      "postalCode": "86336",
+      "country": "US",
+      "line2": null,
+      "type": "single family home",
+      "ownerName": "Eleanor Jean Whitcombe",
+      "renterName": null
+    },
+    {
+      "street": "501 Rincon Vista Boulevard",
+      "city": "Tucson",
+      "state": "Arizona",
+      "postalCode": "85718",
+      "country": "US",
+      "line2": null,
+      "type": "single family home",
+      "ownerName": "Eleanor Jean Whitcombe",
+      "renterName": null
+    },
+    {
+      "street": "74 Prairie Dunes Court",
+      "city": "Mesa",
+      "state": "Arizona",
+      "postalCode": "85201",
+      "country": "US",
+      "line2": null,
+      "type": "single family home",
+      "ownerName": "Thomas Reyes Villanueva",
+      "renterName": null
+    }
+  ]
+}

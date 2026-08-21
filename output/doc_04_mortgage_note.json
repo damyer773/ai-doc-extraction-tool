@@ -1,0 +1,62 @@
+{
+  "customers": [
+    {
+      "name": "Daniel Osei Mensah",
+      "email": null,
+      "phone": null,
+      "dateOfBirth": "1984-06-19",
+      "mailingAddress": {
+        "street": "6603 Winterberry Court",
+        "city": "Columbus",
+        "state": "Ohio",
+        "postalCode": "43221",
+        "country": "US",
+        "line2": null
+      }
+    },
+    {
+      "name": "Priya Osei Mensah",
+      "email": null,
+      "phone": null,
+      "dateOfBirth": "1986-11-30",
+      "mailingAddress": {
+        "street": "6603 Winterberry Court",
+        "city": "Columbus",
+        "state": "Ohio",
+        "postalCode": "43221",
+        "country": "US",
+        "line2": null
+      }
+    }
+  ],
+  "dollarAmounts": [
+    {
+      "amount": 328900,
+      "currency": "USD",
+      "category": "principal"
+    },
+    {
+      "amount": 2051.44,
+      "currency": "USD",
+      "category": "monthly payment"
+    },
+    {
+      "amount": 102.57,
+      "currency": "USD",
+      "category": "late charge"
+    }
+  ],
+  "addresses": [
+    {
+      "street": "6603 Winterberry Court",
+      "city": "Columbus",
+      "state": "Ohio",
+      "postalCode": "43221",
+      "country": "US",
+      "line2": null,
+      "type": "single family home",
+      "ownerName": "Daniel Osei Mensah and Priya Osei Mensah",
+      "renterName": "Daniel Osei Mensah and Priya Osei Mensah"
+    }
+  ]
+}
