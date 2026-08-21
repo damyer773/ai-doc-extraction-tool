@@ -15,20 +15,31 @@ const openai = new OpenAI({
 });
 
 async function main() {
-  const runner = openai.responses
-    .stream({
-      model: deploymentName,
-      input: 'solve 8x + 31 = 2',
-    })
-    .on('event', (event) => console.log(event))
-    .on('response.output_text.delta', (diff) => process.stdout.write(diff.delta));
+  const response = await openai.responses.create({
+    model: deploymentName,
+    input: "solve 8x + 31 = 2",
+  });
 
-  for await (const event of runner) {
-    console.log('event', event);
-  }
+  console.log(response.output_text);
 
-  const result = await runner.finalResponse();
-  console.log(result);
+
+
+    // Event streaming logic
+    //   const runner = openai.responses
+    //     .stream({
+    //       model: deploymentName,
+    //       input: 'solve 8x + 31 = 2',
+    //     })
+    //     .on('event', (event) => console.log(event))
+    //     .on('response.output_text.delta', (diff) => process.stdout.write(diff.delta));
+
+    //   for await (const event of runner) {
+    //     console.log('event', event);
+    //   }
+
+    //   const result = await runner.finalResponse();
+    //   console.log(result);
+
 }
 
 main();
