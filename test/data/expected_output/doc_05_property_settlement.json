@@ -6,12 +6,12 @@
       "phone": null,
       "dateOfBirth": null,
       "mailingAddress": {
-        "street": "88 Fenwick Avenue",
+        "street": "340 Ashgrove Lane",
         "city": "Nashville",
         "state": "Tennessee",
-        "postalCode": "37206",
-        "country": "United States",
-        "line2": "Units A and B"
+        "postalCode": "37205",
+        "country": "US",
+        "line2": null
       }
     },
     {
@@ -24,7 +24,7 @@
         "city": "Nashville",
         "state": "Tennessee",
         "postalCode": "37205",
-        "country": "United States",
+        "country": "US",
         "line2": null
       }
     }
@@ -62,10 +62,10 @@
       "city": "Nashville",
       "state": "Tennessee",
       "postalCode": "37205",
-      "country": "United States",
+      "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Katherine Elise Dunmore",
+      "ownerName": "Richard Alan Dunmore and Katherine Elise Dunmore",
       "renterName": null
     },
     {
@@ -73,10 +73,10 @@
       "city": "Gatlinburg",
       "state": "Tennessee",
       "postalCode": "37738",
-      "country": "United States",
+      "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Richard Alan Dunmore, Katherine Elise Dunmore",
+      "ownerName": "Richard Alan Dunmore and Katherine Elise Dunmore",
       "renterName": null
     },
     {
@@ -84,10 +84,10 @@
       "city": "Nashville",
       "state": "Tennessee",
       "postalCode": "37206",
-      "country": "United States",
+      "country": "US",
       "line2": "Units A and B",
       "type": "apartment",
-      "ownerName": "Richard Alan Dunmore",
+      "ownerName": "Richard Alan Dunmore and Katherine Elise Dunmore",
       "renterName": null
     }
   ]

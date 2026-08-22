@@ -105,14 +105,44 @@
         "category": {
           "type": "string",
           "description": "The category of the amount, such as rental amount, principal, or security deposit.",
-          "minLength": 1
+          "minLength": 1,
+          "enum": [
+            "rental amount",
+            "earnest money",
+            "closing costs",
+            "down payment",
+            "mortgage payoff",
+            "option fee",
+            "purchase price",
+            "rent credit",
+            "seller proceeds",
+            "security deposit",
+            "late fee",
+            "liability coverage",
+            "transfer tax amount",
+            "consideration",
+            "principal",
+            "fair market value",
+            "equalization payment",
+            "property value",
+            "rental income",
+            "mortgage balance",
+            "common area maintenance",
+            "security deposit",
+            "property tax",
+            "personal guaranty",
+            "minimum accepted offer",
+            "distribution",
+            "appraisal",
+            "administration fees"
+          ]
         }
       }
     },
     "mailingAddress": {
       "title": "Extracted Mailing Address",
       "description": "A customer's mailing address identified in the document.",
-      "type": "object",
+      "type": ["object", "null"],
       "additionalProperties": false,
       "required": [
         "street",
@@ -218,12 +248,17 @@
           ]
         },
         "ownerName": {
-          "type": "string",
-          "description": "The name of the person or entity that owns the property.",
+          "type": [
+            "string",
+            "null"
+          ],          "description": "The name of the person or entity that owns the property.",
           "minLength": 1
         },
         "renterName": {
-          "type": "string",
+          "type": [
+            "string",
+            "null"
+          ],
           "description": "The name of the person or entity that rents the property.",
           "minLength": 1
         }

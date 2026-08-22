@@ -5,56 +5,28 @@
       "email": null,
       "phone": null,
       "dateOfBirth": null,
-      "mailingAddress": {
-        "street": "77 Cathedral Square",
-        "city": "Denver",
-        "state": "Colorado",
-        "postalCode": "80203",
-        "country": "USA",
-        "line2": "Floor 9"
-      }
+      "mailingAddress": null
     },
     {
       "name": "Susan Marie Ellery",
       "email": null,
       "phone": null,
       "dateOfBirth": null,
-      "mailingAddress": {
-        "street": "77 Cathedral Square",
-        "city": "Denver",
-        "state": "Colorado",
-        "postalCode": "80203",
-        "country": "USA",
-        "line2": "Floor 9"
-      }
+      "mailingAddress": null
     },
     {
       "name": "Jonathan Cole Ibrahim",
       "email": null,
       "phone": null,
       "dateOfBirth": null,
-      "mailingAddress": {
-        "street": "1500 Commerce Plaza",
-        "city": "Denver",
-        "state": "Colorado",
-        "postalCode": "80202",
-        "country": "USA",
-        "line2": "Suite 210"
-      }
+      "mailingAddress": null
     },
     {
       "name": "Renata Souza Lindqvist",
       "email": null,
       "phone": null,
       "dateOfBirth": "1971-01-08",
-      "mailingAddress": {
-        "street": "77 Cathedral Square",
-        "city": "Denver",
-        "state": "Colorado",
-        "postalCode": "80203",
-        "country": "USA",
-        "line2": "Floor 9"
-      }
+      "mailingAddress": null
     }
   ],
   "dollarAmounts": [
@@ -62,6 +34,11 @@
       "amount": 6850,
       "currency": "USD",
       "category": "rental amount"
+    },
+    {
+      "amount": 82200,
+      "currency": "USD",
+      "category": "personal guaranty"
     },
     {
       "amount": 1140,
@@ -72,35 +49,30 @@
       "amount": 13700,
       "currency": "USD",
       "category": "security deposit"
-    },
-    {
-      "amount": 82200,
-      "currency": "USD",
-      "category": "personal guaranty"
     }
   ],
   "addresses": [
     {
       "street": "1500 Commerce Plaza",
       "city": "Denver",
-      "state": "Colorado",
+      "state": "CO",
       "postalCode": "80202",
-      "country": "USA",
+      "country": "US",
       "line2": "Suite 210",
       "type": "apartment",
-      "ownerName": "ownership entity",
+      "ownerName": null,
       "renterName": "Ibrahim Consulting Group LLC"
     },
     {
       "street": "77 Cathedral Square",
       "city": "Denver",
-      "state": "Colorado",
+      "state": "CO",
       "postalCode": "80203",
-      "country": "USA",
+      "country": "US",
       "line2": "Floor 9",
       "type": "apartment",
-      "ownerName": "ownership entity",
-      "renterName": " "
+      "ownerName": null,
+      "renterName": null
     }
   ]
 }

@@ -10,7 +10,7 @@
         "city": "Madison",
         "state": "Wisconsin",
         "postalCode": "53711",
-        "country": "United States",
+        "country": "US",
         "line2": null
       }
     },
@@ -24,7 +24,7 @@
         "city": "Milwaukee",
         "state": "Wisconsin",
         "postalCode": "53202",
-        "country": "United States",
+        "country": "US",
         "line2": null
       }
     }
@@ -38,7 +38,7 @@
     {
       "amount": 5000,
       "currency": "USD",
-      "category": "repairs or closing costs"
+      "category": "closing costs"
     }
   ],
   "addresses": [
@@ -47,10 +47,10 @@
       "city": "Madison",
       "state": "Wisconsin",
       "postalCode": "53711",
-      "country": "United States",
+      "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Walter Emmitt Sorensen",
+      "ownerName": null,
       "renterName": null
     },
     {
@@ -58,10 +58,10 @@
       "city": "Milwaukee",
       "state": "Wisconsin",
       "postalCode": "53202",
-      "country": "United States",
+      "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Lucille Faith Okonkwo",
+      "ownerName": null,
       "renterName": null
     }
   ]

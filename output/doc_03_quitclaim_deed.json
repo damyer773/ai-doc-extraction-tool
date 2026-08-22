@@ -5,14 +5,7 @@
       "email": null,
       "phone": null,
       "dateOfBirth": "1955-09-02",
-      "mailingAddress": {
-        "street": "501 Rincon Vista Boulevard",
-        "city": "Tucson",
-        "state": "Arizona",
-        "postalCode": "85718",
-        "country": "US",
-        "line2": null
-      }
+      "mailingAddress": null
     },
     {
       "name": "Thomas Reyes Villanueva",
@@ -51,7 +44,7 @@
       "line2": null,
       "type": "single family home",
       "ownerName": "Eleanor Jean Whitcombe",
-      "renterName": "Thomas Reyes Villanueva"
+      "renterName": null
     },
     {
       "street": "88 Copperfield Way",
@@ -61,8 +54,8 @@
       "country": "US",
       "line2": "Apartment 4",
       "type": "apartment",
-      "ownerName": "Eleanor Jean Whitcombe",
-      "renterName": "null"
+      "ownerName": null,
+      "renterName": null
     },
     {
       "street": "3390 Desert Willow Drive",
@@ -72,8 +65,8 @@
       "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Eleanor Jean Whitcombe",
-      "renterName": "null"
+      "ownerName": null,
+      "renterName": null
     },
     {
       "street": "501 Rincon Vista Boulevard",
@@ -83,8 +76,8 @@
       "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Eleanor Jean Whitcombe",
-      "renterName": "null"
+      "ownerName": null,
+      "renterName": null
     },
     {
       "street": "74 Prairie Dunes Court",
@@ -94,8 +87,8 @@
       "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Thomas Reyes Villanueva",
-      "renterName": "null"
+      "ownerName": null,
+      "renterName": null
     }
   ]
 }

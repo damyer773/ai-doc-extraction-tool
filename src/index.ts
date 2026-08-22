@@ -59,7 +59,12 @@ async function main() {
         "Return only JSON that conforms to the supplied JSON Schema. " +
         "For each dollar amount, assign a concise category such as rental amount, principal, or security deposit. " +
         "Ignore banks or businesses; do not extract them as customer. " +
-        "Use null only where the schema permits it; do not invent values.",
+        "Use null only where the schema permits it; do not invent values. " +
+        "Every address should be captured in the 'addresses' array, even if it is not associated as a mailing address for a customer. " +
+        "Assign owners, renters, and mailing addresses as they apply before the document's signature date. " +
+        "Do not assign an owner or renter to a property if the document does not explicitly identify them. " +
+        "Do not assign a mailing address to a customer if the document does not explicitly identify it. " +
+        "Use 'US' for the country rather than 'United States'.",
       input: documentText,
       text: {
         format: {

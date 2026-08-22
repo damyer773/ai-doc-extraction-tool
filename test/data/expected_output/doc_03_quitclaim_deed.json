@@ -61,7 +61,7 @@
       "country": "US",
       "line2": "Apartment 4",
       "type": "apartment",
-      "ownerName": "Eleanor Jean Whitcombe",
+      "ownerName": null,
       "renterName": null
     },
     {
@@ -72,7 +72,7 @@
       "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Eleanor Jean Whitcombe",
+      "ownerName": null,
       "renterName": null
     },
     {
@@ -83,7 +83,7 @@
       "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Eleanor Jean Whitcombe",
+      "ownerName": null,
       "renterName": null
     },
     {
@@ -94,7 +94,7 @@
       "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Thomas Reyes Villanueva",
+      "ownerName": null,
       "renterName": null
     }
   ]

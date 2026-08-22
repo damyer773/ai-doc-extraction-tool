@@ -109,7 +109,7 @@
       "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Michael Andrew Petrosyan",
+      "ownerName": null,
       "renterName": null
     },
     {
@@ -120,7 +120,7 @@
       "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Sandra Kim Petrosyan-Wu",
+      "ownerName": null,
       "renterName": null
     },
     {
@@ -131,7 +131,7 @@
       "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Vincent Diego Petrosyan",
+      "ownerName": null,
       "renterName": null
     },
     {
@@ -142,7 +142,7 @@
       "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Teresa Louise Petrosyan-Ahn",
+      "ownerName": null,
       "renterName": null
     }
   ]

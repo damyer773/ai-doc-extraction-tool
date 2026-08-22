@@ -5,14 +5,7 @@
       "email": null,
       "phone": null,
       "dateOfBirth": null,
-      "mailingAddress": {
-        "street": "350 Persimmon Grove Road",
-        "city": "Tulsa",
-        "state": "Oklahoma",
-        "postalCode": "74114",
-        "country": "United States",
-        "line2": null
-      }
+      "mailingAddress": null
     },
     {
       "name": "Naomi Adaeze Chukwu",
@@ -24,7 +17,7 @@
         "city": "Tulsa",
         "state": "Oklahoma",
         "postalCode": "74103",
-        "country": "United States",
+        "country": "US",
         "line2": "Apartment 6"
       }
     }
@@ -57,7 +50,7 @@
       "city": "Tulsa",
       "state": "Oklahoma",
       "postalCode": "74114",
-      "country": "United States",
+      "country": "US",
       "line2": null,
       "type": "single family home",
       "ownerName": "Bartholomew Reece Kingsley",
@@ -68,22 +61,22 @@
       "city": "Tulsa",
       "state": "Oklahoma",
       "postalCode": "74103",
-      "country": "United States",
+      "country": "US",
       "line2": "Apartment 6",
       "type": "apartment",
-      "ownerName": "null",
-      "renterName": "null"
+      "ownerName": null,
+      "renterName": null
     },
     {
       "street": "902 Bellflower Path",
       "city": "Broken Arrow",
       "state": "Oklahoma",
       "postalCode": "74012",
-      "country": "United States",
-      "line2": "c/o her sister",
+      "country": "US",
+      "line2": "care of her sister",
       "type": "single family home",
-      "ownerName": "null",
-      "renterName": "null"
+      "ownerName": null,
+      "renterName": null
     }
   ]
 }

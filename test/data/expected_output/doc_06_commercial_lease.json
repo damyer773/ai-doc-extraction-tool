@@ -5,42 +5,21 @@
       "email": null,
       "phone": null,
       "dateOfBirth": null,
-      "mailingAddress": {
-        "street": "77 Cathedral Square",
-        "city": "Denver",
-        "state": "Colorado",
-        "postalCode": "80203",
-        "country": "USA",
-        "line2": "Floor 9"
-      }
+      "mailingAddress": null
     },
     {
       "name": "Susan Marie Ellery",
       "email": null,
       "phone": null,
       "dateOfBirth": null,
-      "mailingAddress": {
-        "street": "77 Cathedral Square",
-        "city": "Denver",
-        "state": "Colorado",
-        "postalCode": "80203",
-        "country": "USA",
-        "line2": "Floor 9"
-      }
+      "mailingAddress": null
     },
     {
       "name": "Jonathan Cole Ibrahim",
       "email": null,
       "phone": null,
       "dateOfBirth": null,
-      "mailingAddress": {
-        "street": "1500 Commerce Plaza",
-        "city": "Denver",
-        "state": "Colorado",
-        "postalCode": "80202",
-        "country": "USA",
-        "line2": "Suite 210"
-      }
+      "mailingAddress": null
     },
     {
       "name": "Renata Souza Lindqvist",
@@ -81,7 +60,7 @@
       "country": "USA",
       "line2": "Suite 210",
       "type": "apartment",
-      "ownerName": "ownership entity",
+      "ownerName": null,
       "renterName": "Ibrahim Consulting Group LLC"
     },
     {
@@ -92,8 +71,8 @@
       "country": "USA",
       "line2": "Floor 9",
       "type": "apartment",
-      "ownerName": "ownership entity",
-      "renterName": "Harold Vance Whitaker, Susan Marie Ellery"
+      "ownerName":  null,
+      "renterName": null
     }
   ]
 }

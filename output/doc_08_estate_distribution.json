@@ -61,7 +61,7 @@
     {
       "amount": 598000,
       "currency": "USD",
-      "category": "appraisal"
+      "category": "property value"
     },
     {
       "amount": 138500,
@@ -98,8 +98,8 @@
       "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Decedent",
-      "renterName": "Decedent"
+      "ownerName": null,
+      "renterName": null
     },
     {
       "street": "44 Aldergate Row",
@@ -109,8 +109,8 @@
       "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Michael Andrew Petrosyan",
-      "renterName": "Michael Andrew Petrosyan"
+      "ownerName": null,
+      "renterName": null
     },
     {
       "street": "902 Fairhope Lane",
@@ -120,8 +120,8 @@
       "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Sandra Kim Petrosyan-Wu",
-      "renterName": "Sandra Kim Petrosyan-Wu"
+      "ownerName": null,
+      "renterName": null
     },
     {
       "street": "267 Cormorant Bay Drive",
@@ -131,8 +131,8 @@
       "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Vincent Diego Petrosyan",
-      "renterName": "Vincent Diego Petrosyan"
+      "ownerName": null,
+      "renterName": null
     },
     {
       "street": "55 Grantchester Court",
@@ -142,8 +142,8 @@
       "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Teresa Louise Petrosyan-Ahn",
-      "renterName": "Teresa Louise Petrosyan-Ahn"
+      "ownerName": null,
+      "renterName": null
     }
   ]
 }

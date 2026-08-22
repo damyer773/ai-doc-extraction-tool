@@ -38,12 +38,12 @@
     {
       "amount": 2051.44,
       "currency": "USD",
-      "category": "monthly payment"
+      "category": "mortgage balance"
     },
     {
       "amount": 102.57,
       "currency": "USD",
-      "category": "late charge"
+      "category": "late fee"
     }
   ],
   "addresses": [
@@ -55,8 +55,8 @@
       "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Daniel Osei Mensah and Priya Osei Mensah",
-      "renterName": "Daniel Osei Mensah and Priya Osei Mensah"
+      "ownerName": null,
+      "renterName": null
     }
   ]
 }

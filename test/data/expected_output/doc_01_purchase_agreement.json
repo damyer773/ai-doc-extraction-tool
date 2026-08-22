@@ -12,14 +12,7 @@
       "email": null,
       "phone": null,
       "dateOfBirth": null,
-      "mailingAddress": {
-        "street": "4417 Larkspur Hollow Road",
-        "city": "Boise",
-        "state": "Idaho",
-        "postalCode": "83702",
-        "country": "US",
-        "line2": null
-      }
+      "mailingAddress": null
     }
   ],
   "dollarAmounts": [
@@ -49,7 +42,7 @@
       "line2": null,
       "type": "single family home",
       "ownerName": "Deborah Sue Nakamura",
-      "renterName": "Marcus Alan Whitfield"
+      "renterName": null
     }
   ]
 }

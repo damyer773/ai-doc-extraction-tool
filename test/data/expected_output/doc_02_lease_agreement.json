@@ -10,7 +10,7 @@
         "city": "Wilmington",
         "state": "North Carolina",
         "postalCode": "28401",
-        "country": "United States",
+        "country": "US",
         "line2": "Suite 220"
       }
     },
@@ -19,14 +19,7 @@
       "email": null,
       "phone": null,
       "dateOfBirth": null,
-      "mailingAddress": {
-        "street": "928 Chestnut Bend Lane",
-        "city": "Charlotte",
-        "state": "North Carolina",
-        "postalCode": "28204",
-        "country": "United States",
-        "line2": "Unit 3B"
-      }
+      "mailingAddress": null
     },
     {
       "name": "Brian Timothy Costa",
@@ -38,7 +31,7 @@
         "city": "Charlotte",
         "state": "North Carolina",
         "postalCode": "28204",
-        "country": "United States",
+        "country": "US",
         "line2": "Unit 3B"
       }
     }
@@ -76,7 +69,7 @@
       "city": "Charlotte",
       "state": "North Carolina",
       "postalCode": "28204",
-      "country": "United States",
+      "country": "US",
       "line2": "Unit 3B",
       "type": "apartment",
       "ownerName": "Gregory Paul Ostrander",
@@ -87,7 +80,7 @@
       "city": "Wilmington",
       "state": "North Carolina",
       "postalCode": "28401",
-      "country": "United States",
+      "country": "US",
       "line2": "Suite 220",
       "type": "apartment",
       "ownerName": "Gregory Paul Ostrander",

@@ -1,20 +1,6 @@
 {
   "customers": [
     {
-      "name": "Melinda Grace Toussaint",
-      "email": null,
-      "phone": null,
-      "dateOfBirth": null,
-      "mailingAddress": {
-        "street": "210 Federal Plaza",
-        "city": "Portland",
-        "state": "Oregon",
-        "postalCode": "97204",
-        "country": "United States",
-        "line2": "Suite 500"
-      }
-    },
-    {
       "name": "Kevin Patrick O'Malley",
       "email": null,
       "phone": null,
@@ -24,7 +10,7 @@
         "city": "Beaverton",
         "state": "Oregon",
         "postalCode": "97005",
-        "country": "United States",
+        "country": "US",
         "line2": null
       }
     },
@@ -33,14 +19,7 @@
       "email": null,
       "phone": null,
       "dateOfBirth": "1982-08-05",
-      "mailingAddress": {
-        "street": "7715 Foxglove Ridge Avenue",
-        "city": "Portland",
-        "state": "Oregon",
-        "postalCode": "97219",
-        "country": "United States",
-        "line2": null
-      }
+      "mailingAddress": null
     }
   ],
   "dollarAmounts": [
@@ -72,37 +51,37 @@
   ],
   "addresses": [
     {
+      "street": "210 Federal Plaza",
+      "city": "Portland",
+      "state": "Oregon",
+      "postalCode": "97204",
+      "country": "US",
+      "line2": "Suite 500",
+      "type": "single family home",
+      "ownerName": null,
+      "renterName": null
+    },
+    {
       "street": "7715 Foxglove Ridge Avenue",
       "city": "Portland",
       "state": "Oregon",
       "postalCode": "97219",
-      "country": "United States",
+      "country": "US",
       "line2": null,
       "type": "single family home",
       "ownerName": "Fatima Zahra El-Amin",
-      "renterName": "Kevin Patrick O'Malley"
+      "renterName": null
     },
     {
       "street": "3308 Alderwood Circle",
       "city": "Beaverton",
       "state": "Oregon",
       "postalCode": "97005",
-      "country": "United States",
+      "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Kevin Patrick O'Malley",
-      "renterName": "renterName"
-    },
-    {
-      "street": "210 Federal Plaza",
-      "city": "Portland",
-      "state": "Oregon",
-      "postalCode": "97204",
-      "country": "United States",
-      "line2": "Suite 500",
-      "type": "condominium",
-      "ownerName": "Summit Title & Escrow Services",
-      "renterName": "renterName"
+      "ownerName": null,
+      "renterName": null
     }
   ]
 }
