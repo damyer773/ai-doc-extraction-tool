@@ -5,14 +5,28 @@
       "email": null,
       "phone": null,
       "dateOfBirth": null,
-      "mailingAddress": null
+      "mailingAddress": {
+        "street": "340 Ashgrove Lane",
+        "city": "Nashville",
+        "state": "Tennessee",
+        "postalCode": "37205",
+        "country": "US",
+        "line2": null
+      }
     },
     {
       "name": "Katherine Elise Dunmore",
       "email": null,
       "phone": null,
       "dateOfBirth": null,
-      "mailingAddress": null
+      "mailingAddress": {
+        "street": "340 Ashgrove Lane",
+        "city": "Nashville",
+        "state": "Tennessee",
+        "postalCode": "37205",
+        "country": "US",
+        "line2": null
+      }
     }
   ],
   "dollarAmounts": [
@@ -51,7 +65,7 @@
       "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Katherine Elise Dunmore",
+      "ownerName": "Richard Alan Dunmore and Katherine Elise Dunmore",
       "renterName": null
     },
     {
@@ -62,7 +76,7 @@
       "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": null,
+      "ownerName": "Richard Alan Dunmore and Katherine Elise Dunmore",
       "renterName": null
     },
     {
@@ -73,7 +87,7 @@
       "country": "US",
       "line2": "Units A and B",
       "type": "apartment",
-      "ownerName": "Richard Alan Dunmore",
+      "ownerName": "Richard Alan Dunmore and Katherine Elise Dunmore",
       "renterName": null
     }
   ]

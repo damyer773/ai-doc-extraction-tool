@@ -1,6 +1,13 @@
 {
   "customers": [
     {
+      "name": "Melinda Grace Toussaint",
+      "email": null,
+      "phone": null,
+      "dateOfBirth": null,
+      "mailingAddress": null
+    },
+    {
       "name": "Kevin Patrick O'Malley",
       "email": null,
       "phone": null,
@@ -57,7 +64,7 @@
       "postalCode": "97204",
       "country": "US",
       "line2": "Suite 500",
-      "type": "single family home",
+      "type": "apartment",
       "ownerName": null,
       "renterName": null
     },
@@ -69,7 +76,7 @@
       "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": "Fatima Zahra El-Amin",
+      "ownerName": null,
       "renterName": null
     },
     {

@@ -5,7 +5,14 @@
       "email": null,
       "phone": null,
       "dateOfBirth": "1955-09-02",
-      "mailingAddress": null
+      "mailingAddress": {
+        "street": "501 Rincon Vista Boulevard",
+        "city": "Tucson",
+        "state": "Arizona",
+        "postalCode": "85718",
+        "country": "US",
+        "line2": null
+      }
     },
     {
       "name": "Thomas Reyes Villanueva",

@@ -58,6 +58,17 @@
   ],
   "addresses": [
     {
+      "street": "210 Federal Plaza",
+      "city": "Portland",
+      "state": "Oregon",
+      "postalCode": "97204",
+      "country": "US",
+      "line2": "Suite 500",
+      "type": "condominium",
+      "ownerName": null,
+      "renterName": null
+    },
+    {
       "street": "7715 Foxglove Ridge Avenue",
       "city": "Portland",
       "state": "Oregon",
@@ -76,17 +87,6 @@
       "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": null,
-      "renterName": null
-    },
-    {
-      "street": "210 Federal Plaza",
-      "city": "Portland",
-      "state": "Oregon",
-      "postalCode": "97204",
-      "country": "US",
-      "line2": "Suite 500",
-      "type": "condominium",
       "ownerName": null,
       "renterName": null
     }

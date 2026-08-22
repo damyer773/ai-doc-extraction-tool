@@ -19,14 +19,28 @@
       "email": null,
       "phone": null,
       "dateOfBirth": null,
-      "mailingAddress": null
+      "mailingAddress": {
+        "street": "928 Chestnut Bend Lane",
+        "city": "Charlotte",
+        "state": "North Carolina",
+        "postalCode": "28204",
+        "country": "US",
+        "line2": "Unit 3B"
+      }
     },
     {
       "name": "Brian Timothy Costa",
       "email": null,
       "phone": null,
       "dateOfBirth": null,
-      "mailingAddress": null
+      "mailingAddress": {
+        "street": "928 Chestnut Bend Lane",
+        "city": "Charlotte",
+        "state": "North Carolina",
+        "postalCode": "28204",
+        "country": "US",
+        "line2": "Unit 3B"
+      }
     }
   ],
   "dollarAmounts": [

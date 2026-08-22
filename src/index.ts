@@ -64,6 +64,7 @@ async function main() {
         "Assign owners, renters, and mailing addresses as they apply before the document's signature date. " +
         "Do not assign an owner or renter to a property if the document does not explicitly identify them. " +
         "Do not assign a mailing address to a customer if the document does not explicitly identify it. " +
+        "A marital residence can be used as a mailing address for both spouses. " +
         "Use 'US' for the country rather than 'United States'.",
       input: documentText,
       text: {
