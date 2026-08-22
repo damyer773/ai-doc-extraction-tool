@@ -127,7 +127,7 @@ Run the evaluation harness against the latest extraction output:
 npx tsx evaluate.ts
 ```
 
-## What I'd improve with more time
+## Next Steps or Improvements
 
 - Investigate the remaining `addresses[].ownerName` gap (88.89%) directly — pull a few mismatched documents and confirm whether it's genuine misattribution or another edge case, now that the null-serialization and ground-truth issues are resolved.
 - Look closely at `doc_06_commercial_lease`, the weakest-performing document at 84%, to understand what's structurally different about it.
