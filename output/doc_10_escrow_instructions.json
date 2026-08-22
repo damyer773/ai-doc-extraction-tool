@@ -1,13 +1,6 @@
 {
   "customers": [
     {
-      "name": "Melinda Grace Toussaint",
-      "email": null,
-      "phone": null,
-      "dateOfBirth": null,
-      "mailingAddress": null
-    },
-    {
       "name": "Kevin Patrick O'Malley",
       "email": null,
       "phone": null,
@@ -76,7 +69,7 @@
       "country": "US",
       "line2": null,
       "type": "single family home",
-      "ownerName": null,
+      "ownerName": "Fatima Zahra El-Amin",
       "renterName": null
     },
     {
