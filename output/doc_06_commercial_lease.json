@@ -55,22 +55,22 @@
     {
       "street": "1500 Commerce Plaza",
       "city": "Denver",
-      "state": "Colorado",
+      "state": "CO",
       "postalCode": "80202",
       "country": "US",
       "line2": "Suite 210",
-      "type": "apartment",
-      "ownerName": null,
+      "type": "condominium",
+      "ownerName": "ownership entity",
       "renterName": "Ibrahim Consulting Group LLC"
     },
     {
       "street": "77 Cathedral Square",
       "city": "Denver",
-      "state": "Colorado",
+      "state": "CO",
       "postalCode": "80203",
       "country": "US",
       "line2": "Floor 9",
-      "type": "apartment",
+      "type": "condominium",
       "ownerName": null,
       "renterName": null
     }

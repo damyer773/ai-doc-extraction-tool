@@ -34,14 +34,14 @@
       "category": "rent credit"
     },
     {
-      "amount": 4500,
-      "currency": "USD",
-      "category": "option fee"
-    },
-    {
       "amount": 267000,
       "currency": "USD",
       "category": "purchase price"
+    },
+    {
+      "amount": 4500,
+      "currency": "USD",
+      "category": "option fee"
     }
   ],
   "addresses": [
@@ -65,7 +65,7 @@
       "line2": "Apartment 6",
       "type": "apartment",
       "ownerName": null,
-      "renterName": "Naomi Adaeze Chukwu"
+      "renterName": null
     },
     {
       "street": "902 Bellflower Path",
@@ -73,7 +73,7 @@
       "state": "Oklahoma",
       "postalCode": "74012",
       "country": "US",
-      "line2": null,
+      "line2": "c/o her sister",
       "type": "single family home",
       "ownerName": null,
       "renterName": null

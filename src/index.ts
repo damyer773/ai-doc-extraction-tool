@@ -56,6 +56,7 @@ async function main() {
       model: deploymentName,
       instructions:
         "Extract every customer, dollar amount, and address from the document. " +
+        "Record customers even if only briefly mentioned, such as escrow officers. " +
         "Return only JSON that conforms to the supplied JSON Schema. " +
         "For each dollar amount, assign a concise category such as rental amount, principal, or security deposit. " +
         "Ignore banks or businesses; do not extract them as customer. " +

@@ -1,6 +1,20 @@
 {
   "customers": [
     {
+      "name": "Melinda Grace Toussaint",
+      "email": null,
+      "phone": null,
+      "dateOfBirth": null,
+      "mailingAddress": {
+        "street": "210 Federal Plaza",
+        "city": "Portland",
+        "state": "Oregon",
+        "postalCode": "97204",
+        "country": "US",
+        "line2": "Suite 500"
+      }
+    },
+    {
       "name": "Kevin Patrick O'Malley",
       "email": null,
       "phone": null,
@@ -57,7 +71,7 @@
       "postalCode": "97204",
       "country": "US",
       "line2": "Suite 500",
-      "type": "apartment",
+      "type": "condominium",
       "ownerName": null,
       "renterName": null
     },
@@ -81,7 +95,7 @@
       "line2": null,
       "type": "single family home",
       "ownerName": null,
-      "renterName": null
+      "renterName": "Kevin Patrick O'Malley"
     }
   ]
 }
